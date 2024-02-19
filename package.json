@@ -1,0 +1,23 @@
+{
+  "name": "e-learning_api",
+  "version": "1.0.0",
+  "description": "You are required to develop an API for e-learning courses. The purpose of the tool is:\r - For the Professors: to manage the courses configuration and performance reviews\r - For the Students, to take courses using our frontend.",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jairht19/E-Learning_API.git"
+  },
+  "author": "Jair Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jairht19/E-Learning_API/issues"
+  },
+  "homepage": "https://github.com/jairht19/E-Learning_API#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
