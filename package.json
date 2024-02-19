@@ -4,8 +4,8 @@
   "description": "You are required to develop an API for e-learning courses. The purpose of the tool is:\r - For the Professors: to manage the courses configuration and performance reviews\r - For the Students, to take courses using our frontend.",
   "main": "src/index.js",
   "scripts": {
-    "serve": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "nodemon build/index.js",
+    "build": "tsc -w"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/jairht19/E-Learning_API#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+    "typescript": "^5.3.3"
   }
 }

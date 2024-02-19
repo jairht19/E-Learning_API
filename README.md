@@ -43,5 +43,14 @@ Codebase rules:
 
 <code>
 <ol>> npm install</ol>
+<ol>> npm run build</ol>
 <ol>> npm run serve</ol>
+</code>
+
+## 
+This project uses TypeScript, Express 
+
+## Endpoints
+<code>
+users: /api/users 
 </code>
